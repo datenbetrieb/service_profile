@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+    <data>
+        <record id="state_DE_01" model="res.country.state">
+            <field name="code">BW</field>
+            <field name="name">Baden-Württemberg</field>
+            <field name="country_id" ref="base.de"/>
+        </record>
+        <record id="state_DE_02" model="res.country.state">
+            <field name="code">BY</field>
+            <field name="name">Bayern</field>
+            <field name="country_id" ref="base.de"/>
+        </record>
+        <record id="state_DE_03" model="res.country.state">
+            <field name="code">BE</field>
+            <field name="name">Berlin</field>
+            <field name="country_id" ref="base.de"/>
+        </record>
+        <record id="state_DE_04" model="res.country.state">
+            <field name="code">BB</field>
+            <field name="name">Brandenburg</field>
+            <field name="country_id" ref="base.de"/>
+        </record>
+        <record id="state_DE_05" model="res.country.state">
+            <field name="code">HB</field>
+            <field name="name">Bremen</field>
+            <field name="country_id" ref="base.de"/>
+        </record>
+        <record id="state_DE_06" model="res.country.state">
+            <field name="code">HH</field>
+            <field name="name">Hamburg</field>
+            <field name="country_id" ref="base.de"/>
+        </record>
+        <record id="state_DE_07" model="res.country.state">
+            <field name="code">HE</field>
+            <field name="name">Hessen</field>
+            <field name="country_id" ref="base.de"/>
+        </record>
+        <record id="state_DE_08" model="res.country.state">
+            <field name="code">MV</field>
+            <field name="name">Mecklenburg-Vorpommern</field>
+            <field name="country_id" ref="base.de"/>
+        </record>
+        <record id="state_DE_09" model="res.country.state">
+            <field name="code">NI</field>
+            <field name="name">Niedersachsen</field>
+            <field name="country_id" ref="base.de"/>
+        </record>
+        <record id="state_DE_10" model="res.country.state">
+            <field name="code">NW</field>
+            <field name="name">Nordrhein-Westfalen</field>
+            <field name="country_id" ref="base.de"/>
+        </record>
+        <record id="state_DE_11" model="res.country.state">
+            <field name="code">RP</field>
+            <field name="name">Rheinland-Pfalz</field>
+            <field name="country_id" ref="base.de"/>
+        </record>
+        <record id="state_DE_12" model="res.country.state">
+            <field name="code">SL</field>
+            <field name="name">Saarland</field>
+            <field name="country_id" ref="base.de"/>
+        </record>
+        <record id="state_DE_13" model="res.country.state">
+            <field name="code">SN</field>
+            <field name="name">Sachsen</field>
+            <field name="country_id" ref="base.de"/>
+        </record>
+        <record id="state_DE_14" model="res.country.state">
+            <field name="code">ST</field>
+            <field name="name">Sachsen-Anhalt</field>
+            <field name="country_id" ref="base.de"/>
+        </record>
+        <record id="state_DE_15" model="res.country.state">
+            <field name="code">SH</field>
+            <field name="name">Schleswig-Holstein</field>
+            <field name="country_id" ref="base.de"/>
+        </record>
+        <record id="state_DE_16" model="res.country.state">
+            <field name="code">TH</field>
+            <field name="name">Thüringen</field>
+            <field name="country_id" ref="base.de"/>
+        </record>
+    </data>
+</openerp>

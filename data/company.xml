@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+    <data>
+        <record id="base.main_partner" model="res.partner" context="{'default_is_company': True}">
+            <field name="name">company name</field>
+            <field name="company_id" eval="None"/>
+            <field name="image" eval="False" />
+            <field name="customer" eval="False"/>
+            <field name="is_company" eval="True"/>
+            <field name="street">Your Street 00</field>
+            <field name="city">Yourcity</field>
+            <field name="zip">99999</field>
+            <field name="phone">+49521 44695860</field>
+            <field name="fax">+49521 44695869</field>
+            <field name="email">info@datenbetrieb.de</field>
+            <field name="website">www.datenbetrieb.de</field>
+            <field name="bank_ids" eval="[(6,0,[ref('profile_bank_account_1')])]" />
+        </record>
+        <!-- Basic Company  -->
+        <record id="base.main_company" model="res.company">
+            <field name="name">Your company name</field>
+            <field name="partner_id" ref="base.main_partner"/>
+            <field model="res.country" name="country_id" search="[('code','ilike','de')]"/>
+            <field model="res.country.state" name="state_id" search="[('code','ilike','NW')]"/>
+            <field name="state_id">69</field>
+            <field name="rml_header1">Lösungen für digitale Zeiten</field>
+            <field name="logo" type="base64" file="datenbetrieb_profile/static/images/logo.png" />
+            <field name="currency_id" ref="base.EUR"/>
+            <field name="vat">VAT???</field>
+            <field name="company_registry">HRB 99999</field>
+            <field name="bank_ids" eval="[(6,0,[ref('profile_bank_account_1')])]" />
+        </record>
+    </data>
+</openerp>

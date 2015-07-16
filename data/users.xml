@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<openerp>
+    <data>
+        <record model="res.users" id="res_partner_2">
+            <field name="name">Peter Niederlag</field>
+            <field name="company_id" ref="base.main_company" />
+            <field name="parent_id" ref="base.main_partner" />
+            <field name="use_parent_address" eval="True" />
+            <field name="type">contact</field>
+            <field name="customer" eval="False" />
+            <field name="supplier" eval="False" />
+            <field name="is_company" eval="False" />
+            <field name="agent" eval="False" />
+            <field name="zip">33604</field>
+            <field name="city">Bielefeld</field>
+            <field name="street">User Street 99</field>
+            <field name="phone">123456789</field>
+            <field name="login">peter.niederlag@datenbetrieb.de</field>
+            <field name="password">changeme</field>
+            <field name="in_group_8" eval="True" />
+            <field name="tz">Europe/Berlin</field>
+        </record>
+    </data>
+</openerp>
+
